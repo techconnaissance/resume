@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Sunandan Kuganandan</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+.logo-padding {
+    padding-bottom: 10px !important;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="https:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1145671806541422593&#x2F;yFVA4YGc_400x400.jpg" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Sunandan Kuganandan<br><span>Full Stack Developer &#x2F; Lead &#x2F; Solution Architech</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>A certified Microsoft professional and a technology enthusiast. With my technical skill set and experience, I have designed, developed and delivered various web sites and standalone application. I have had the opportunity to work in India, Malaysia and now Singapore developing and delivering wide range of applications for Industries such as digital agency, retail, help desk and semiconductors. I have also managed a team and performed resource planning, estimation and development plans.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Earth9 Pte Ltd.
+                      <div class="pull-right">
+                        Singapore
+                      </div>
+                    </div>
+                    <div class="description">
+                      A Digital Transformation
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.earth9.com&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.earth9.com&#x2F;</a>
+                    </div>
+                    <div class="year">March 2021 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Solution Architect</div>
+                    <div class="description">
+                      Earth9.com Pte Ltd. is a Singapore based company with over 12-years of expertise in offering innovative solutions to help people benefit from information. We create end-to-end solutions that unlock information from silos and other traps, and empower people with the right information at the right time.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Involve in pre-sales to pitch the solution and products used in Earth9.</li>
+                        <li class="list-group-item">Manage global tech team (Australia, Singapore, India and Indonesia)</li>
+                        <li class="list-group-item">Manage clients from various Industries like hospital, PAP, banks, etc.</li>
+                        <li class="list-group-item">Design and develop solutions to tailor client’s requirement.</li>
+                        <li class="list-group-item">Develop POC for client and nail the approach for development.</li>
+                        <li class="list-group-item">Handling applications which are using SharePoint 2019, SharePoint Online, Angular and Python.</li>
+                        <li class="list-group-item">Requirement gathering for new projects and CR’s</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      GIC
+                      <div class="pull-right">
+                        Singapore
+                      </div>
+                    </div>
+                    <div class="description">
+                      A Digital Transformation
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.gic.com.sg&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.gic.com.sg&#x2F;</a>
+                    </div>
+                    <div class="year">December 2017 – February 2021</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Assistant Vice President</div>
+                    <div class="description">
+                      GIC is a global long-term investor with well over US$100 billion in assets in over 40 countries worldwide. We work to secure Singapore’s financial future by investing across a range of asset classes in the public and private markets.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Designed and developed iOS and Android app for CRM application to increase mobility for GICian’s.</li>
+                        <li class="list-group-item">Developed react-native mobile app for recording, site details for the RE-Front office </li>
+                        <li class="list-group-item">Instrumental in re-engineering existing eFront application used in Private market (RE & PE) using open source technologies like .net core, angular 8, mvc, hang fire, elastic search, redis, etc.</li>
+                        <li class="list-group-item">Applications are hosted mainly in Azure and AWS cloud.</li>
+                        <li class="list-group-item">Coordinate with team (on-shore and off-shore) by providing advice, act as an evangelist of proposal, industry standard best practices, methodologies in the Software Development and notify wherever the application lacks them.</li>
+                        <li class="list-group-item">Designed and improved valuation process for both debt and non-debt investments</li>
+                        <li class="list-group-item">Coordinated with the upstream and downstream teams for seamless exchange of data using queue (MSMQ) mechanism</li>
+                        <li class="list-group-item">Lead a team of 15 in development of CRM application built on Sugar CRM.</li>
+                        <li class="list-group-item">Automated and streamlined various manual process such us approvals, data verification using OCR (ABBY) technologies. </li>
+                        <li class="list-group-item">Creating and reviewing technical documentation such as procedural, instructional and operational guides and manuals and specifications.</li>
+                        <li class="list-group-item">Managed and delivered control scrum team for application development. </li>
+                        <li class="list-group-item">Analyze the difference between various systems, multiple sources of inputs, document the limitations, performance bottlenecks and shortfalls.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Ministry of Manpower Via People Bank
+                      <div class="pull-right">
+                        Singapore
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.mom.gov.sg&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.mom.gov.sg&#x2F;</a>
+                    </div>
+                    <div class="year">February 2015 – November 2017</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior Consultant</div>
+                    <div class="description">
+                      MOM aim to develop a great workforce and a great workplace. Singaporeans can aspire to real income growth, fulfilling careers and financial security, while we maintain a manpower-lean and competitive economy.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Developed and customized collaboration platform using SharePoint 2013, jQuery, HTML5, .Net, MVC, AngularJS, MSSQL, Xamarin (iOS & Android) etc.</li>
+                        <li class="list-group-item">Coordinating with various Business Users to gather requirement and analyze possible solutions to best fit the business.</li>
+                        <li class="list-group-item">Developed “Proof of Concept” to test the feasibility of the requirement and to evaluate value add ons.</li>
+                        <li class="list-group-item">Created Development framework and application in SharePoint.</li>
+                        <li class="list-group-item">Lead development team of 10 in designing, overcame architectural limitation while designing Enterprise Mobile App to expose intranet content.</li>
+                        <li class="list-group-item">Developed JQuery utility libraries for the team.</li>
+                        <li class="list-group-item">Designed HTML pages for few modules.</li>
+                        <li class="list-group-item">Mitigating potential project issues and problems by conducting thorough QA, thus ensuring project deliverables are met in a timely fashion.</li>
+                        <li class="list-group-item">Ensuring projects are conducted in compliance with applicable government and regulatory procedures.</li>
+                        <li class="list-group-item">Ensured teams followed process throughout the SDLC by customizing Team foundation Server.</li>
+                        <li class="list-group-item">Directing project team members and working closely with product managers and QA teams. </li>
+                        <li class="list-group-item">Involved in Vendor Management, Project Planning and Business operations for the project.</li>
+                        <li class="list-group-item">Created custom dashboard to visualize the project statistics data.</li>
+                        <li class="list-group-item">Documenting the functional, technical and Business processes.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Avanade
+                      <div class="pull-right">
+                        Singapore
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.avanade.com&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.avanade.com&#x2F;</a>
+                    </div>
+                    <div class="year">March 2014 – February 2015</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Consultant</div>
+                    <div class="description">
+                      Avanade was born into this pioneering time. Created in April 2000 by two industry giants – Accenture and Microsoft – Avanade had one goal: deliver innovative services and solutions to enterprises worldwide using the Microsoft platform.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Provided technical service to Inland Revenue Authority of Singapore (IRAS)</li>
+                        <li class="list-group-item">Collaborating with users to enhance and provide alternate suggestions to improve the business flow</li>
+                        <li class="list-group-item">Perform code and impact analysis for the modules affected with the enhancement.</li>
+                        <li class="list-group-item">Involved in the development of eform-C application, Employment Pass and Work Permit batch job.</li>
+                        <li class="list-group-item">Supported user during the UAT phase by data prepping, to run batch in UAT environment and analyze output.</li>
+                        <li class="list-group-item">Strictly followed process like Database Change request, Application management change request, Database review request etc. as a part of our deployment process.</li>
+                        <li class="list-group-item">Provided innovative solutions like notification tools to reduce developers pain points.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- AWARDS -->
+          <div class="box">
+            <h2><i class="fas fa-certificate ico"></i> Awards</h2>
+            <ul id="awards" class="clearfix">
+              <li>
+                <div class="year pull-left">November  2019</div>
+                <div class="description pull-right">
+                  <h3>Google</h3>
+                  <p><i class="fas fa-trophy ico"></i> 2nd Place at Machine Learning Bootcamp</p>
+                  <p></p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">May  2017</div>
+                <div class="description pull-right">
+                  <h3>Ministry of Manpower Singapore</h3>
+                  <p><i class="fas fa-trophy ico"></i> Special Commendation Team Award</p>
+                  <p></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              
+              <div class="title only  pull-right">Punggol, Singapore 828779 SG</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:sunandankn@gmail.com" target="_blank">sunandankn@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;sunandank" target="_blank">@sunandank</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">Linkedin</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;sunandank&#x2F;" target="_blank">sunandank</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2014 2016</div>
+                <div class="description pull-right">
+                  <h3>University of Bradford, UK</h3>
+                  <div class="where"></div>
+                  <div class="address">
+                    <a href="https:&#x2F;&#x2F;www.bradford.ac.uk&#x2F;external&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.bradford.ac.uk&#x2F;external&#x2F;</a>
+                  </div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Part-Time</p>
+                  <p>Master of Business Administration</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2003 2007</div>
+                <div class="description pull-right">
+                  <h3>Anna University, India</h3>
+                  <div class="where"></div>
+                  <div class="address">
+                    <a href="https:&#x2F;&#x2F;www.annauniv.edu&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.annauniv.edu&#x2F;</a>
+                  </div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Full-Time</p>
+                  <p>Electronics &amp; Communication Engineering</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Web Development
+                  <span class="skill-level">Master</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">HTML5</span>
+                <span class= "skill badge">CSS</span>
+                <span class= "skill badge">Javascript</span>
+                <span class= "skill badge">JQuery</span>
+                <span class= "skill badge">Typescript</span>
+                <span class= "skill badge">.Net</span>
+                <span class= "skill badge">ASP.Net</span>
+                <span class= "skill badge">Angular</span>
+                <span class= "skill badge">React</span>
+                <span class= "skill badge">Python</span>
+                <span class= "skill badge">NodeJS</span>
+                <span class= "skill badge">SharePoint</span>
+                <span class= "skill badge">XML</span>
+                <span class= "skill badge">WCF</span>
+                <span class= "skill badge">.Net Core</span>
+                <span class= "skill badge">MVC</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Mobile
+                  <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">iOS</span>
+                <span class= "skill badge">Android</span>
+                <span class= "skill badge">React-Native</span>
+                <span class= "skill badge">Xamarin</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Database
+                  <span class="skill-level">Master</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">SQL Server</span>
+                <span class= "skill badge">MongoDB</span>
+                <span class= "skill badge">Elastic Search</span>
+                <span class= "skill badge">Redis</span>
+                <span class= "skill badge">Entity Framework</span>
+                <span class= "skill badge">ADO.Net</span>
+                <span class= "skill badge">Microsoft Enterprise Library</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Cloud
+                  <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">AWS</span>
+                <span class= "skill badge">Azure</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Project Tracking Tools
+                  <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Jira</span>
+                <span class= "skill badge">Confluence</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Repositories&#x2F;Pipelines
+                  <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">GIT</span>
+                <span class= "skill badge">TFS</span>
+                <span class= "skill badge">Jenkins</span>
+                <span class= "skill badge">Puppet</span>
+              </div>
+            </div>
+          </div>
+          <!-- PUBLICATIONS -->
+          <div class="box">
+            <h2><i class="fas fa-book ico"></i> Publications</h2>
+            <div class="publication panel panel-default">
+              <div class="panel-heading">
+                <div class="name panel-title">Drivers of Employee Engagement and Innovation in Information Technology Industry</div>
+              </div>
+              <div class="panel-body">
+                <div class="publisher"><i class= "fas fa-bookmark ico"></i> Internation Organization of Scientific Research (IOSR)</div>
+                <div class="year">02 February  2018</div>
+                <div class="address">
+                  <a href="http:&#x2F;&#x2F;iosrjournals.org&#x2F;iosr-jbm&#x2F;papers&#x2F;Vol20-issue1&#x2F;Version-8&#x2F;E2001083846.pdf" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;iosrjournals.org&#x2F;iosr-jbm&#x2F;papers&#x2F;Vol20-issue1&#x2F;Version-8&#x2F;E2001083846.pdf</a>
+                </div>
+                <p>Information Technology (IT) is one of the growing sectors that contribute tremendously to the modern society. It has given the ability to process the massive amount of data in a shorter time, mobility, convenience, etc. Hence in order to match the expectation of the customers and to grow business, IT Companies should be in the top of this trend to provide a more innovative solution. This study aimed to establish the empirical evidence on whether employee engagement drivers affects the level of innovation in IT industry. Three main employee engagement drivers namely leadership style, rewards and recognition, and training and development were identified based on the literature review and were tested for the correlation and significance of each employee engagement drivers on innovation. A structured questionnaire was used to collect the research data. The results indicate that the employee engagement drivers such as leadership style, rewards and recognition, and training and development can influence the innovative behavior in an IT employee.</p>
+              </div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2><i class="fas fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Photography
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Landscape</span>
+                <span class= "interest badge">Potraits</span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <h2><i class= "fas fa-check-square ico"></i> References</h2>
+            <blockquote>
+              <div>Sunandan was one of the most committed Engineers through his work at Soho. He is a detail oriented, goal oriented, ambitious and strong co-worker, his knowledge is vast and thorough. Sunandan is dedicated, self-motivated, methodical, and very capable. He showed a high level of sql, aspnet, technical skills and was a valuable contributor to our projects. Sunandan always maintains very good relation with co-workers and clients.</div>
+              <footer>
+                <a href="" target= "_blank">Augustine Low</a>
+              </footer>
+            </blockquote><br>
+            <blockquote>
+              <div>Sunandan is an outstanding professional. His technical skills are impressive and his commitment to a project assures a reliable outcome. He leads and works well with a team.He is an excellent motivator and a great team player. One of the most talented people with whom I've ever worked.</div>
+              <footer>
+                <a href="" target= "_blank">Raju Guruswamy</a>
+              </footer>
+            </blockquote><br>
+          </div>
+
+         
+
+          <div class="box row">
+
+            <h2><i class="fas fa-smile ico"></i> Brands </h2>
+
+            <div class="col-sm-3 clearfix logo-padding">
+                <img src="https://www.mom.gov.sg/html/mom/images/branding/mom-logo-print.png" style="max-width: 100px" ;="">
+            </div>
+           
+            <div class="col-sm-3 clearfix logo-padding">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 591.7 293.7" style="max-width: 100px;enable-background:new 0 0 591.7 293.7;" xml:space="preserve">
+                        <g>
+                            <path class="st0" d="M303,161.8h38.9l-0.4,1.8c-4.5,18.5-21.6,31-42.6,31c-27.1,0-47.6-20.6-47.6-47.8c0-27.2,20.5-47.8,47.8-47.8
+                            c14.9,0,28.5,6.2,37.5,17.1l19.2-15.3c-12.6-16.4-33.9-26.1-57.3-26.1c-41.9,0-73.5,31-73.5,72.1c0,41.1,31.3,72.1,72.9,72.1
+                            c40.9,0,70.6-29.9,70.6-71.1v-8.4H303V161.8z"></path>
+                            <rect x="400.3" y="77.2" class="st0" width="25.5" height="139.3"></rect>
+                            <path class="st0" d="M531.1,194.4c-26.9,0-47.2-20.5-47.2-47.6s20.3-47.6,47.2-47.6c15.7,0,29.7,7,38.5,19.3l22.1-13.7
+                            c-13.3-18.9-35.9-30.1-60.6-30.1c-41.9,0-73.5,31-73.5,72.1c0,41.1,31.6,72.1,73.5,72.1c24.7,0,47.3-11.2,60.6-30.1l-22.1-13.7
+                            C560.8,187.4,546.8,194.4,531.1,194.4z"></path>
+                            <path class="st0" d="M28,63.1v60.3c3.7-0.8,7.8-1.5,12-2.2V60.3h-9.2C29.3,60.3,28,61.5,28,63.1z"></path>
+                            <path class="st0" d="M0,151.3c0,3.5,4.1,8.1,18.5,12.4c0.2,0,0.4,0,0.4-0.2c0.1-0.2,0-0.4-0.2-0.4c-4.9-2.1-7.5-4.3-7.5-6.7
+                            c0-3.9,7.4-7.3,16.8-9.7v84c0,1.6,1.3,2.8,2.8,2.8H40v-99.2C23,136.8,0,142.6,0,151.3z"></path>
+                            <path class="st0" d="M53.1,35.2v84.3c5.1-0.5,10.4-1,15.9-1.3V32.3H56C54.4,32.3,53.1,33.6,53.1,35.2z"></path>
+                            <path class="st0" d="M53.1,258.5c0,1.6,1.3,2.8,2.8,2.8h13v-130c-5.5,0.3-10.8,0.7-15.9,1.3L53.1,258.5z"></path>
+                            <path class="st0" d="M102.4,117.7V2.8c0-1.5-1.2-2.8-2.8-2.8H84.8C83.3,0,82,1.2,82,2.8v114.9c3.3-0.1,6.7-0.1,10.2-0.1
+                            C95.6,117.6,99.1,117.6,102.4,117.7z"></path>
+                            <path class="st0" d="M82,130.8v160.1c0,1.5,1.2,2.8,2.8,2.8h14.8c1.5,0,2.8-1.3,2.8-2.8V130.8c-3.4-0.1-6.8-0.1-10.2-0.1
+                            C88.8,130.7,85.4,130.7,82,130.8z"></path>
+                            <path class="st0" d="M115.5,261.4h13c1.6,0,2.8-1.3,2.8-2.8v-126c-5.1-0.5-10.4-1-15.9-1.3L115.5,261.4z"></path>
+                            <path class="st0" d="M128.5,32.3h-13v85.9c5.5,0.3,10.8,0.8,15.9,1.3V35.2C131.4,33.6,130.1,32.3,128.5,32.3z"></path>
+                            <path class="st0" d="M156.4,63.1c0-1.6-1.3-2.8-2.8-2.8h-9.2v60.9c4.3,0.7,8.3,1.4,12,2.2V63.1z"></path>
+                            <path class="st0" d="M165.9,138.9c-0.2,0-0.4,0.1-0.4,0.3c0,0.1,0,0.3,0.2,0.4c5.9,2.5,7.5,4.9,7.5,6.6c0,3.7-6.4,7-16.8,9.7v-19.4
+                            c-3.7-0.8-7.8-1.5-12-2.2v99.2h9.2c1.6,0,2.8-1.3,2.8-2.8v-64.5c17.3-3.8,28-9,28-14.8C184.4,147.6,179.9,142.9,165.9,138.9z"></path>
+                        </g>
+                    </svg>
+            </div>
+
+            <div class="col-sm-3 clearfix logo-padding">
+                <img src="https://www.rwsentosa.com/-/media/project/non-gaming/rwsentosa/home/homebanner/logo-thumb.svg?la=en&amp;hash=25BF3D7AB07D7E9765F855C42DF3B15BBBE95E04" style="max-width: 50px;" ;="">
+            </div>
+
+            <div class="col-sm-3 clearfix logo-padding">
+                <img src="https://racing.turfclub.com.sg/wp-content/themes/stctheme/img/header/logo.png" style="/* max-width: 75px; *//* height:50px; */max-width: 100%;" ;="">
+            </div>
+
+            <div class="col-sm-3 clearfix logo-padding">
+                <img src="https://www.dumex.com.sg/PublishingImages/HomePage/dumex-logo.png" style="/* max-width: 75px; *//* height:50px */max-width: 100%;" ;="">
+            </div>
+
+            <div class="col-sm-3 clearfix logo-padding">
+                <img src="https://www.plexus.com/PlexusCDN/plexus/media/english-media/resources/plexus-logo_medium.png?ext=.png" style="/* height:50px */max-width: 100px;" ;="">
+            </div>
+
+            <div class="col-sm-3 clearfix logo-padding">
+                <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcR1_IDUSviQYX0J3rMHBV00RWfWnRxVsogKxqXj-kjfmGbKIeyj">
+            </div>
+
+            <div class="col-sm-3 clearfix logo-padding">
+                <img src="https://www.iras.gov.sg/irasHome/web/images/logo-agency.png" style="/* max-width: 75px; */max-width: 100px;" ;="">
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
